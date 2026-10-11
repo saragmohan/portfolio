@@ -4,23 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
-  const handleDownloadPdf = () => {
-    const pdfUrl = `${import.meta.env.BASE_URL}Sarag_Mohan_Portfolio.pdf`;
-    fetch(pdfUrl, { method: 'HEAD' })
-      .then((res) => {
-        if (res.ok) {
-          const link = document.createElement('a');
-          link.href = pdfUrl;
-          link.download = 'Sarag_Mohan_Portfolio.pdf';
-          link.click();
-        } else {
-          window.print();
-        }
-      })
-      .catch(() => {
-        window.print();
-      });
-  };
+  const pdfUrl = `${import.meta.env.BASE_URL}Sarag_Mohan_Portfolio.pdf`;
 
   return (
     <footer className="footer">
@@ -37,10 +21,15 @@ const Footer = () => {
         </div>
 
         <div className="footer-actions">
-          <button onClick={handleDownloadPdf} className="download-pdf-btn" title="Download or Save Portfolio as PDF">
+          <a
+            href={pdfUrl}
+            download="Sarag_Mohan_Portfolio.pdf"
+            className="download-pdf-btn"
+            title="Download Sarag Mohan Portfolio (PDF)"
+          >
             <FileDown size={18} />
             <span>Download Portfolio (PDF)</span>
-          </button>
+          </a>
         </div>
 
         <div className="footer-socials">

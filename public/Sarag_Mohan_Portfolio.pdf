@@ -1,0 +1,122 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 4677 >>
+stream
+0.06 0.09 0.16 rg
+BT /F2 22 Tf 44 745 Td (Sarag Mohan P) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 11.5 Tf 44 723 Td (Senior Software Engineer | 5+ Years Experience) Tj ET
+0.30 0.35 0.42 rg
+BT /F1 8.5 Tf 44 706 Td (Bengaluru, India   |   saragmohan.parammal@gmail.com   |   linkedin.com/in/saragmohanp   |   github.com/saragmohan) Tj ET
+0.85 0.88 0.92 RG 1 w 44 692 m 568 692 l S
+0.31 0.27 0.90 rg
+BT /F2 10.5 Tf 44 674 Td (PROFESSIONAL SUMMARY) Tj ET
+0.31 0.27 0.90 RG 1.5 w 44 670 m 80 670 l S
+0.15 0.20 0.26 rg
+BT /F1 8.5 Tf 44 656 Td (Results-driven Senior Software Engineer with over 5+ years of experience designing and delivering enterprise-scale, full-stack web applications.) Tj ET
+BT /F1 8.5 Tf 44 644 Td (Proven expertise in architecting modular React.js frontends, resilient Java Spring Boot microservices, and GraphQL APIs.) Tj ET
+BT /F1 8.5 Tf 44 632 Td (Demonstrated track record of cutting application load times by 40%, mentoring teams, and leveraging cutting-edge AI dev workflows.) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 10.5 Tf 44 614 Td (TECHNICAL SKILLS & AI TOOLKIT) Tj ET
+0.31 0.27 0.90 RG 1.5 w 44 610 m 80 610 l S
+0.06 0.09 0.16 rg
+BT /F2 8.5 Tf 44 596 Td (Frontend Development: ) Tj ET
+0.25 0.30 0.36 rg
+BT /F1 8.5 Tf 158.0 596 Td (React.js, JavaScript \(ES6+\), Redux, HTML5, CSS3, Responsive UI Design) Tj ET
+0.06 0.09 0.16 rg
+BT /F2 8.5 Tf 44 583 Td (Backend & Architecture: ) Tj ET
+0.25 0.30 0.36 rg
+BT /F1 8.5 Tf 168.0 583 Td (Java, Spring Boot, Microservices, Node.js, REST APIs, GraphQL, JSON) Tj ET
+0.06 0.09 0.16 rg
+BT /F2 8.5 Tf 44 570 Td (AI & Productivity Tools: ) Tj ET
+0.25 0.30 0.36 rg
+BT /F1 8.5 Tf 173.0 570 Td (GitHub Copilot, ChatGPT, Gemini, Cursor, Claude \(Claw\), Rovo Dev CLI, Google Antigravity) Tj ET
+0.06 0.09 0.16 rg
+BT /F2 8.5 Tf 44 557 Td (DevOps & Methodology: ) Tj ET
+0.25 0.30 0.36 rg
+BT /F1 8.5 Tf 158.0 557 Td (Git, GitHub, Bitbucket, CI/CD Pipelines, Jest, JUnit, Agile / Scrum, Code Reviews) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 10.5 Tf 44 538 Td (PROFESSIONAL EXPERIENCE) Tj ET
+0.31 0.27 0.90 RG 1.5 w 44 534 m 80 534 l S
+0.06 0.09 0.16 rg
+BT /F2 9.5 Tf 44 520 Td (Senior Software Engineer - IBS Software) Tj ET
+0.40 0.45 0.52 rg
+BT /F1 8.5 Tf 403 520 Td (02/2022 - Present | Bengaluru, India) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 9 Tf 48 507 Td (-) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 8.2 Tf 60 507 Td (Built and integrated Spring Boot microservice APIs with modern React.js interfaces for mission-critical enterprise workflows.) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 9 Tf 48 495 Td (-) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 8.2 Tf 60 495 Td (Spearheaded performance tuning and reusable component architecture, resulting in a documented 40% reduction in load times.) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 9 Tf 48 483 Td (-) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 8.2 Tf 60 483 Td (Migrated legacy REST services to GraphQL, optimizing network payload efficiency and simplifying client-side data state.) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 9 Tf 48 471 Td (-) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 8.2 Tf 60 471 Td (Partnered with tier-1 international airlines \(China Airlines, Qantas, Air Arabia\) to deliver reliable, high-availability solutions.) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 9 Tf 48 459 Td (-) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 8.2 Tf 60 459 Td (Championed AI-assisted development \(GitHub Copilot, Jira AI\) and established automated UI testing with Jest and CI/CD.) Tj ET
+0.06 0.09 0.16 rg
+BT /F2 9.5 Tf 44 441 Td (Market Research Executive - Silicon Media Technologies) Tj ET
+0.40 0.45 0.52 rg
+BT /F1 8.5 Tf 403 441 Td (10/2019 - 10/2021 | Bangalore, India) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 9 Tf 48 428 Td (-) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 8.2 Tf 60 428 Td (Managed and deployed time-sensitive digital content updates, web banner placements, and interactive portal listings.) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 9 Tf 48 416 Td (-) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 8.2 Tf 60 416 Td (Collaborated with cross-functional media and development teams to ensure high reliability in live production environments.) Tj ET
+0.31 0.27 0.90 rg
+BT /F2 10.5 Tf 44 398 Td (EDUCATION & CERTIFICATIONS) Tj ET
+0.31 0.27 0.90 RG 1.5 w 44 394 m 80 394 l S
+0.06 0.09 0.16 rg
+BT /F2 9 Tf 44 380 Td (B.Tech in Mechanical Engineering) Tj ET
+0.40 0.45 0.52 rg
+BT /F1 8.5 Tf 490 380 Td (08/2014 - 05/2018) Tj ET
+0.30 0.35 0.42 rg
+BT /F1 8.2 Tf 44 368 Td (Achariya College of Engineering Technology | Pondicherry, India) Tj ET
+0.06 0.09 0.16 rg
+BT /F2 9 Tf 44 354 Td (Professional Certifications) Tj ET
+0.40 0.45 0.52 rg
+BT /F1 8.5 Tf 532 354 Td (Verified) Tj ET
+0.30 0.35 0.42 rg
+BT /F1 8.2 Tf 44 342 Td (React.js Essential Training   |   Building RESTful APIs with Node.js and Express   |   JavaScript Challenges) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5125
+%%EOF
