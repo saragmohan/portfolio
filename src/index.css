@@ -122,3 +122,69 @@ section {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent-secondary);
 }
+
+/* Print Styles for PDF Export */
+@media print {
+  .navbar,
+  .download-pdf-btn,
+  .background-glow,
+  .social-links,
+  .footer-socials {
+    display: none !important;
+  }
+
+  body, html {
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+
+  section {
+    padding: 24px 0 !important;
+    margin: 0 !important;
+    min-height: auto !important;
+    page-break-inside: avoid;
+  }
+
+  .section-title,
+  .role,
+  .institution,
+  .degree,
+  h1, h2, h3, h4 {
+    color: #111827 !important;
+  }
+
+  .gradient-text,
+  .footer-brand h2 {
+    background: none !important;
+    -webkit-text-fill-color: #111827 !important;
+    color: #111827 !important;
+  }
+
+  .glass-panel {
+    background: #f9fafb !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: none !important;
+    color: #1f2937 !important;
+  }
+
+  .skill-tag,
+  .lang-tag,
+  .ai-tool-card {
+    background: #f3f4f6 !important;
+    border: 1px solid #e5e7eb !important;
+    color: #1f2937 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+
+  .ai-tool-card span {
+    color: #1f2937 !important;
+  }
+
+  .footer {
+    background: transparent !important;
+    border-top: 1px solid #e5e7eb !important;
+    padding: 16px 0 0 !important;
+    margin-top: 24px !important;
+  }
+}
