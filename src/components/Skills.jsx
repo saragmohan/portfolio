@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Database, Layout, Terminal, Wrench } from 'lucide-react';
+import { Code, Database, Layout, Terminal, Wrench, MousePointer2 } from 'lucide-react';
 import { SiOpenai, SiGooglegemini, SiGithubcopilot, SiAnthropic, SiGoogle } from 'react-icons/si';
 import { VscTerminal } from 'react-icons/vsc';
 import './Skills.css';
@@ -77,6 +77,10 @@ const Skills = () => {
         <div className="ai-tool-card glass-panel animate-fade-in" style={{ animationDelay: '0.6s' }}>
           <SiGoogle className="ai-icon antigravity-icon" />
           <span>Google Antigravity</span>
+        </div>
+        <div className="ai-tool-card glass-panel animate-fade-in" style={{ animationDelay: '0.7s' }}>
+          <MousePointer2 className="ai-icon cursor-icon" />
+          <span>Cursor</span>
         </div>
       </div>
     </section>
