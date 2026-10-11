@@ -1,0 +1,129 @@
+.experience-section {
+  align-items: center;
+}
+
+.timeline {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 2rem;
+}
+
+.timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.marker-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent-gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 2;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+}
+
+.marker-line {
+  position: absolute;
+  top: 40px;
+  bottom: -2rem;
+  width: 2px;
+  background: var(--border-color);
+  z-index: 1;
+}
+
+.timeline-content {
+  flex: 1;
+  padding: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.timeline-header .role {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.company {
+  font-size: 1.1rem;
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+.duration {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+}
+
+.responsibilities {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.responsibilities li {
+  position: relative;
+  padding-left: 1.5rem;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.responsibilities li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-primary);
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .timeline-item {
+    gap: 1rem;
+  }
+  .marker-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .marker-icon svg {
+    width: 14px;
+    height: 14px;
+  }
+  .marker-line {
+    top: 30px;
+  }
+  .timeline-content {
+    padding: 1.5rem;
+  }
+}

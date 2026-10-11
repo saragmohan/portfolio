@@ -1,0 +1,35 @@
+/* App level specific styles */
+.app-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Subtle background glowing orb effect */
+.background-glow {
+  position: fixed;
+  top: -20%;
+  left: -10%;
+  width: 50vw;
+  height: 50vw;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, rgba(10, 10, 14, 0) 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.background-glow::after {
+  content: '';
+  position: absolute;
+  bottom: -50%;
+  right: -50%;
+  width: 60vw;
+  height: 60vw;
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.1) 0%, rgba(10, 10, 14, 0) 70%);
+}
+
+/* Responsive Container */
+@media (max-width: 768px) {
+  section {
+    padding: 40px 5%;
+    margin-bottom: 2.5rem;
+  }
+}
